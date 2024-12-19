@@ -24,6 +24,7 @@ namespace DesafioPOO.Models
             // TODO: Passei os parâmetros do construtor para as propriedades
         }
 
+        // aqui estão os métodos
         public void Ligar()
         {
             Console.WriteLine("Ligando...");
@@ -33,7 +34,7 @@ namespace DesafioPOO.Models
         {
             Console.WriteLine("Recebendo ligação...");
         }
-
+// método sem retorno ===> vídeo aulas de macoratti de número 69 do curso da udemy
         public abstract void InstalarAplicativo(string nomeApp);
     }
 }
