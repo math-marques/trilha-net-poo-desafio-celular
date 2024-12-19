@@ -11,6 +11,7 @@ namespace DesafioPOO.Models
             Memoria = memoria;
         
         }
+        // como esse método é abstrato, ele TEM que aparecer nas classes herdadas
         public override void InstalarAplicativo(string nomeApp)
         {
             Console.WriteLine($"Instalando o aplicativo {nomeApp} no Nokia...");
