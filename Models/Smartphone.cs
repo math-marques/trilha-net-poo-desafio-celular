@@ -9,13 +9,19 @@ namespace DesafioPOO.Models
     {
         // aqui, pode-se utilizar o famoso "props" + Tab. essas são as prorpriedades da classe ==> numero, smartphone.
         public string Numero { get; set; }
+        public string Modelo { get; set; }
+        public int IMEI { get; set; }
+        public int Memoria { get; set; }
+        // TODO: Implementar as propriedades de acordo com o diagrama e em uma ocasião futura, complexar mais
 
-        // TODO: Implementar as propriedades faltantes de acordo com o diagrama
-
+        // construtor
         public Smartphone(string numero)
         {
             Numero = numero;
-            // TODO: Passar os parâmetros do construtor para as propriedades
+            Modelo = modelo;
+            IMEI = imei;
+            Memoria = memoria;
+            // TODO: Passei os parâmetros do construtor para as propriedades
         }
 
         public void Ligar()
